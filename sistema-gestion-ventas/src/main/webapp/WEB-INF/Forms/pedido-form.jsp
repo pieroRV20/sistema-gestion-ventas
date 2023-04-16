@@ -12,6 +12,33 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div class="container">
+            <div class="title">
+                <p>Pedido</p>
+            </div>
+            <form action="#">
+                <div class="user_details">
+                    <div class="input_box">
+                        <label for="name">ID</label>
+                        <input type="text" id="ID" placeholder="" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="name">ID Cliente</label>
+                        <input type="text" id="id oferta" placeholder="" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="">Fecha</label>
+                        <input type="date" id="Tamaño" placeholder="" required>
+                    </div>
+                    <div class="input_box">
+                        <label for="">Estado</label>
+                        <input type="" id="" placeholder="" required>
+                    </div>
+                </div>
+                <div class="reg_btn">
+                    <input type="submit" value="Registrar">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
