@@ -8,6 +8,14 @@
         <servlet-name>ClienteServlet</servlet-name>
         <servlet-class>com.pe.sistema.gestion.ventas.controller.ClienteServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ProductoServlet</servlet-name>
+        <servlet-class>com.pe.sistema.gestion.ventas.controller.ProductoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VentasServlet</servlet-name>
+        <servlet-class>com.pe.sistema.gestion.ventas.controller.VentasServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
@@ -15,6 +23,14 @@
     <servlet-mapping>
         <servlet-name>ClienteServlet</servlet-name>
         <url-pattern>/ClienteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductoServlet</servlet-name>
+        <url-pattern>/ProductoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VentasServlet</servlet-name>
+        <url-pattern>/VentasServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
