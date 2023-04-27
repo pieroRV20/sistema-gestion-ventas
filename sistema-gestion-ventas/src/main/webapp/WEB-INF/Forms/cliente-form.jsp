@@ -37,7 +37,10 @@
                             <label for="">Direccion</label>
                             <input type="" id="pass" placeholder="" required>
                         </div>
-
+                        <div class="input_box">
+                            <label for="">Nº Documento</label>
+                            <input type="" id="pass" placeholder="" required>
+                        </div>
                     </div>
                     <div class="gender">
                         <span class="gender_title">Tipo documento</span>
